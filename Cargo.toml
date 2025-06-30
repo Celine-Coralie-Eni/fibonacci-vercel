@@ -1,0 +1,8 @@
+[package]
+name = "fibonacci-vercel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+vercel_runtime = "1.1.6"
+tokio = { version = "1.45.1", features = ["full"] }
